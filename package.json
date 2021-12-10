@@ -6,7 +6,7 @@
   "author": "Josehower <josehowerupn@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@upleveled/eslint-plugin-upleveled": "file:eslint-upleveled-plugin",
+    "@upleveled/eslint-plugin-upleveled": "file:eslint-upleveled-plugin/",
     "eslint": "^8.4.1"
   }
 }
