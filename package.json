@@ -1,0 +1,23 @@
+{
+  "name": "eslint-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Josehower/eslint-rule-proof-of-concept.git",
+  "author": "Josehower <josehowerupn@gmail.com>",
+  "license": "MIT",
+  "eslintConfig": {
+    "plugins": [
+      "my-eslint-plugin"
+    ],
+    "rules": {
+      "my-eslint-plugin/var-length": "warn"
+    }
+  },
+  "dependencies": {
+    "eslint": "^8.4.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-my-eslint-plugin": "./my-eslint-plugin/",
+    "eslint-plugin-my-eslist-plugin": "./my-eslint-plugin/"
+  }
+}
